@@ -4,7 +4,7 @@ ZagrajmyBIA. Serwis do organizacji gier i wydarzeń sportowych.
 
 Opis projektu.
 
-Aplikacja internetowa skierowana do mieszkańców Białegostoku i okolic, ułatwiająca umawianie się na wspólne rozgrywki w  różnych sportach np  piłka nożna, koszykówka, siatkówka, tenis . System rozwiązuje problem braku kompletnych składów na mecze  oraz pomaga osobom nowym w mieście znaleźć partnerów do gry. 
+Aplikacja internetowa skierowana do mieszkańców Białegostoku i okolic, ułatwiająca umawianie się na wspólne rozgrywki w  różnych sportach np.  piłka nożna, koszykówka, siatkówka, tenis. System rozwiązuje problem braku kompletnych składów na mecze oraz pomaga osobom nowym w mieście znaleźć partnerów do gry. 
 
 Wymagania funkcjonalne: 
 
@@ -12,7 +12,7 @@ Wymagania funkcjonalne:
 
 Rejestracja i logowanie użytkowników. 
 
-Dedykowany panel profilu z listą zorganizowanych rozgrywek oraz meczów, do których użytkownik dołączył. 
+Dedykowany panel profilu z listą zorganizowanych rozgrywek oraz meczów, do których użytkownik dołączył (kalendarz wydarzeń). 
 
 2.Zarządzanie ogłoszeniami. 
 
@@ -24,7 +24,7 @@ Automatyczna zmiana statusu wydarzenia np. Planowane, Brak miejsc, Zakończone..
 
 3.Przeglądanie, filtrowanie i interaktywna mapa: 
 
-Lista ogłoszeń z możliwością filtrowania po dyscyplinie, dacie, poziomie trudności i sortowania najbliższe mecze. 
+Lista ogłoszeń z możliwością filtrowania po dyscyplinie, dacie, poziomie zaawansowania i sortowania najbliższych meczy. 
 
 Widok mapy Białegostoku z zaznaczonymi punktami zbiórek lub obiektów sportowych. 
 
@@ -76,7 +76,7 @@ status STRING
 
 author_id FK  User.id 
 
-3. EventParticipant Uczestnik  tabela łącząca 
+3. EventParticipant Uczestnik tabela łącząca 
 
 id PK 
 
@@ -122,4 +122,4 @@ DELETE /api/events/:id/leave – Rezygnacja z udziału
 
  Podział Zadań w Zespole 
 
-Jeszczedo ustalenia 
+Jeszcze do ustalenia 
